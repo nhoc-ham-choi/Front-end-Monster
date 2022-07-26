@@ -22,7 +22,7 @@ export function notifycation(){
     if(confirm('Xin chào bn , bn có muốn xem trang web này ko?')==false){
         window.close();
     }else{
-        alert('Cảm ơn bn đã vào xem!');
+        alert('thank you !');
     }
     
 }
