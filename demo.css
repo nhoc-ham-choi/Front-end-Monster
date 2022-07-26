@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Moonrocks&family=Yellowtail&display=swap');
+body{
+    background:linear-gradient(35deg,#ccccff,#ffcc);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 65px;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 3px greenyellow;
+    font-weight: bold;
+    font-family:'Dancing Script', cursive;
+}
+header h1 img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -10px;
+}
+header .loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:300px;
+    height: 160px;
+    display: none;
+}
+header .loading #loading{
+    width: 260px;
+    height: 65px;
+    font-size: 30px;
+}
+header .loading #loading span{
+    width: 30px;
+    height: 30px;
+}
+section .content .table{
+    border: 1px black solid;
+    width: 800px;
+    height: 480px;
+    position: relative;
+    left: 290px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:white ;
+}
+section .content .table .contentHandle{
+    border: 1px black solid;
+    height: 50px;
+    width: 798px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background:linear-gradient(35deg,#ffcccc,#ccccff);
+}
+section .content .table .contentHandle .search #formSearch{
+    width: 260px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background: rgba(173, 216, 230, 0.459);
+}
+section .content .table .contentHandle .search #formSearch #inputSearch{
+    height: 38px;
+    width: 185px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    border: none;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    background: none;
+} 
+section .content .table .contentHandle .search #formSearch #btnFilter{
+    height: 38px;
+    width: 60px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 6px;
+    top: -6px;
+    background-color: rgba(172, 255, 47, 0.767);
+}
+section .content .table .contentHandle .setting i{
+    font-size: 30px;
+}
+section .content .table .list{
+    overflow: scroll;
+    border: 1px black solid;
+    height: 428px;
+    width: 798px;
+}
+section .content .backgroundForm{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.322);
+    opacity: 1;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+section .content .backgroundForm .tableForm{
+    border: 1px black solid;
+    width: 800px;
+    height: 480px;
+    position:absolute ;
+    left: 290px;
+    top: 65px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: url(https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section .content .backgroundForm .tableForm #close{
+    height: 50px;
+    width: 798px;
+    position: relative;
+    left: 728px;
+    top: 25px;
+}
+section .content .backgroundForm .tableForm #close i{
+    color: red;
+    font-size: 25px;
+}
+section .content .backgroundForm .handleForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 399px;
+    width: 798px;
+}
+section .content .backgroundForm .handleForm h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px yellowgreen;
+    font-family: 'Pacifico', cursive;
+}
+section .content .backgroundForm .tableForm .handleForm .listItems{
+    list-style: none;
+}
+section .content .backgroundForm .tableForm .handleForm .listItems .item input{
+    width: 220px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+section .content .backgroundForm .tableForm .handleForm .listItems .item button{
+    width: 220px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: skyblue;
+    font-weight: bold;
+}
+#btnUpdate{
+    background-color: greenyellow;
+}
+#btnDelete{
+    background-color: rgb(255, 107, 107);
+}
+td,th{
+    border: 1px solid;
+    text-align: center;
+    font-size: 16px;
+}
+.trValue:hover{
+    background-color: lightblue;
+}
